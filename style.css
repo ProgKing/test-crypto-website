@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.content {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.coin-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 1.2em;
+  margin: 10px;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #1da1f2; /* Twitter blue for hover effect */
+}
+
+footer {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1em;
+}
+
